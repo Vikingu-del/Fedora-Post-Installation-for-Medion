@@ -29,8 +29,8 @@ If you are using a different GPU manufacturer, open `setup.sh` and modify **Sect
   <Step title="Clone the Repository">
     Open your terminal and clone your repository (or download the script directly):
     ```bash
-      git clone https://github.com/Vikingu-del/Fedora-Post-Installation-for-Medion.git
-      cd Fedora-Post-Installation-for-Medion
+    git clone [https://github.com/Vikingu-del/Fedora-Post-Installation-for-Medion.git](https://github.com/Vikingu-del/Fedora-Post-Installation-for-Medion.git)
+    cd Fedora-Post-Installation-for-Medion
     ```
     *Verification:* Run `ls` to confirm `setup.sh` is present in the current directory.
   </Step>
@@ -38,7 +38,7 @@ If you are using a different GPU manufacturer, open `setup.sh` and modify **Sect
   <Step title="Make the Script Executable">
     Grant execution permissions to the script file:
     ```bash
-      chmod +x setup.sh
+    chmod +x setup.sh
     ```
     *Verification:* Running `ls -l setup.sh` shows executable permissions (`-rwxr-xr-x`).
   </Step>
@@ -46,7 +46,7 @@ If you are using a different GPU manufacturer, open `setup.sh` and modify **Sect
   <Step title="Run the Script">
     Execute the script with sudo/root privileges where required:
     ```bash
-      ./setup.sh
+    ./setup.sh
     ```
     *Verification:* The script runs all installation steps sequentially and finishes with `Setup complete!`.
   </Step>
