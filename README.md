@@ -29,7 +29,7 @@ If you are using a different GPU manufacturer, open `setup.sh` and modify **Sect
   <Step title="Clone the Repository">
     Open your terminal and clone your repository (or download the script directly):
     ```bash
-    git clone [https://github.com/Vikingu-del/Fedora-Post-Installation-for-Medion](https://github.com/Vikingu-del/Fedora-Post-Installation-for-Medion.git)
+    git clone https://github.com/Vikingu-del/Fedora-Post-Installation-for-Medion.git
     cd Fedora-Post-Installation-for-Medion
     ```
     *Verification:* Run `ls` to confirm `setup.sh` is present in the current directory.
