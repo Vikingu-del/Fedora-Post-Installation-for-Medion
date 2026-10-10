@@ -25,32 +25,28 @@ If you are using a different GPU manufacturer, open `setup.sh` and modify **Sect
 
 ## Usage
 
-<Steps>
-  <Step title="Clone the Repository">
-    Open your terminal and clone your repository (or download the script directly):
-    ```bash
-    git clone [https://github.com/Vikingu-del/Fedora-Post-Installation-for-Medion.git](https://github.com/Vikingu-del/Fedora-Post-Installation-for-Medion.git)
-    cd Fedora-Post-Installation-for-Medion
-    ```
-    *Verification:* Run `ls` to confirm `setup.sh` is present in the current directory.
-  </Step>
+### 1. Clone the Repository
+Open your terminal and clone your repository (or download the script directly):
+```bash
+git clone [https://github.com/Vikingu-del/Fedora-Post-Installation-for-Medion.git](https://github.com/Vikingu-del/Fedora-Post-Installation-for-Medion.git)
+cd Fedora-Post-Installation-for-Medion
+```
+*Verification:* Run `ls` to confirm `setup.sh` is present in the current directory.
 
-  <Step title="Make the Script Executable">
-    Grant execution permissions to the script file:
-    ```bash
-    chmod +x setup.sh
-    ```
-    *Verification:* Running `ls -l setup.sh` shows executable permissions (`-rwxr-xr-x`).
-  </Step>
 
-  <Step title="Run the Script">
-    Execute the script with sudo/root privileges where required:
-    ```bash
-    ./setup.sh
-    ```
-    *Verification:* The script runs all installation steps sequentially and finishes with `Setup complete!`.
-  </Step>
-</Steps>
+### 2. Make the Script Executable
+  Grant execution permissions to the script file:
+```bash
+chmod +x setup.sh
+```
+*Verification:* Running `ls -l setup.sh` shows executable permissions (`-rwxr-xr-x`).
+
+### 3. Run the Script
+Execute the script with sudo/root privileges where required:
+```bash
+./setup.sh
+```
+*Verification:* The script runs all installation steps sequentially and finishes with `Setup complete!`.
 
 ## Requirements
 
